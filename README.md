@@ -29,7 +29,7 @@ Open [localhost:3000/returning-users](http://localhost:3000/returning-users) wit
 To run the project locally, you need to follow the steps described below.
 
 1. Rename `config.example.ts` to `config.ts`,
-2. Follow the steps described [here](https://docs.argyle.com/guides/docs/advanced-testing#trigger-errors) to trigger a specific error while connecting an account. Instead of using Argyle Console's Link emulator, visit `/user-notification/connect` on localhost to start creating accounts necessary for this demo.
+2. Follow the steps described [here](https://docs.argyle.com/guides/docs/advanced-testing#trigger-errors) to trigger a specific error while connecting an account. Instead of using Argyle Console's Link emulator, visit `/returning-users/connect` on localhost to start creating accounts necessary for this demo.
 3. Connect three separate accounts, each following steps described below:
    1. ### Reconnect Flow
       Connect an account using a Link Item that doesn't require MFA, for example `usps`. Simulate an `auth_required` error using the generated password from Console. After successful account connection, `userId`, `accountId` and `linkItemId` will be printed to browser's console. Copy-paste those values to corresponding keys in `config.ts`.

@@ -46,7 +46,7 @@ To run the project locally, you need to follow the steps described below.
 - **Models** - store reusable TypeScript types.
 - **Pages** - API for all backend functionality that's hidden from end-user. To not expose any keys or potentially abusive calls.
 - **Stores** - [Jotai](https://jotai.org/) React state management with an atomic model.
-- **Styles** - [TailwindCSS](https://tailwindcss.com/) globals and [react-day-picker](https://react-day-picker.js.org/) style overrides. `tailwind.config.js` file contains custom styling presets like fonts and colors.
+- **Styles** - [TailwindCSS](https://tailwindcss.com/) globals and style overrides. `tailwind.config.js` file contains custom styling presets like fonts and colors.
 - **Utils** - store reusable functions.
 - **Views** - smart views that have their own state, business logic and are reused over multiple screens.
 

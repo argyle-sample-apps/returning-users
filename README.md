@@ -36,7 +36,7 @@ To run the project locally, you need to follow the steps described below.
    2. ### DDS Flow
       Connect an account using a Link Item that supports direct deposit switching, for example `amazon`. Use default sample credentials available in Console. After successful account connection, `userId`, `accountId` and `linkItemId` will be printed to browser's console. Copy-paste those values to corresponding keys in `config.ts`.
    3. ### MFA Flow
-      Connect an account using a Link Item that does require MFA, for example `uber`. Simulate an `auth_required` error using the generated password from Console. After successful account connection, `userId`, `accountId` and `linkItemId` will be printed to browser's console. Copy-paste those values to corresponding keys in `config.
+      Connect an account using a Link Item that does require MFA, for example `uber`. Simulate an `auth_required` error using the generated password from Console. After successful account connection, `userId`, `accountId` and `linkItemId` will be printed to browser's console. Copy-paste those values to corresponding keys in `config.ts`.
 
 ## Folder structure (in `src`)
 
